@@ -1,0 +1,31 @@
+{
+    "name": "fairy-server",
+    "version": "1.0.0",
+    "description": "fairy-server - open source",
+    "main": "main.ts",
+    "scripts": {
+        "start": "node dist/main.js",
+        "serve": "nodemon dist/main.js",
+        "build": "npm run build-ts",
+        "build-tslint": "npm run tslint && npm run build-ts",
+        "build-ts": "tsc",
+        "watch": "npm run watch-ts",
+        "watch-tslint": "npm run tslint && npm run watch-ts",
+        "watch-ts": "tsc -w",
+        "tslint": "tslint -c tslint.json -p tsconfig.json",
+        "pkg:dev": "node build/dev.js",
+        "repkg": "npm run build && npm run pkg:dev"
+    },
+    "dependencies": {
+        "debug": "^2.2.0",
+        "mdns": "^2.4.0",
+        "@types/node": "^10.12.9"
+    },
+    "devDependencies": {
+        "tslint": "^5.10.0",
+        "typescript": "^3.0.1"
+    },
+    "author": "shaoshuai",
+    "license": "ISC",
+    "readmeFilename": "README.md"
+}

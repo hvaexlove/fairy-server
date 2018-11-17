@@ -1,0 +1,24 @@
+.DS_Store
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
+out
+build
+dns_sd.node
+demangle.node
+.lock-wscript
+*.sln
+*.vcxproj*
+.pulse2.properties
+Release
+Debug
+
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
