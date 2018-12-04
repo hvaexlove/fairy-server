@@ -1,3 +1,3 @@
-import { createServer } from './mdns/mdns_server';
+import { MDNSServer } from './mdns/mdns_server';
 
-export { createServer }
+export { MDNSServer }

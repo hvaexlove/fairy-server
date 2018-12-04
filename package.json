@@ -4,24 +4,23 @@
     "description": "fairy-server - open source",
     "main": "main.ts",
     "scripts": {
-        "start": "node dist/main.js",
-        "serve": "nodemon dist/main.js",
+        "start": "node dist/fairy_server.js",
+        "serve": "nodemon dist/fairy_server.js",
         "build": "npm run build-ts",
         "build-tslint": "npm run tslint && npm run build-ts",
         "build-ts": "tsc",
         "watch": "npm run watch-ts",
         "watch-tslint": "npm run tslint && npm run watch-ts",
         "watch-ts": "tsc -w",
-        "tslint": "tslint -c tslint.json -p tsconfig.json",
-        "pkg:dev": "node build/dev.js",
-        "repkg": "npm run build && npm run pkg:dev"
+        "tslint": "tslint -c tslint.json -p tsconfig.json"
     },
     "dependencies": {
         "debug": "^2.2.0",
         "mdns": "^2.4.0",
-        "@types/node": "^10.12.9"
+        "@types/node": "^10.12.12"
     },
     "devDependencies": {
+        "cross-env": "^5.2.0",
         "tslint": "^5.10.0",
         "typescript": "^3.0.1"
     },
