@@ -3,7 +3,6 @@ import { TCP } from './tcp';
 import { ServiceType } from './service_type';
 import { Server } from './server';
 
-
 export class MDNSServer extends Server {
 
     constructor() {
