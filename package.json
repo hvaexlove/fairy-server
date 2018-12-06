@@ -16,8 +16,9 @@
     },
     "dependencies": {
         "debug": "^2.2.0",
-        "mdns": "^2.4.0",
-        "@types/node": "^10.12.12"
+        "@types/node": "^10.12.12",
+        "bindings": "~1.2.1",
+        "nan": "^2.10.0"
     },
     "devDependencies": {
         "cross-env": "^5.2.0",
@@ -26,5 +27,6 @@
     },
     "author": "shaoshuai",
     "license": "ISC",
-    "readmeFilename": "README.md"
+    "readmeFilename": "README.md",
+    "gypfile": true
 }
