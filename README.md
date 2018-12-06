@@ -1,10 +1,10 @@
 <h1>FairyServer</h1>
 <p align="center">
-  <img alt="Yarn" src="./public/logo.jpeg" width="546">
+  <img alt="Yarn" src="./public/logo.png" width="546">
 </p>
 
 <p align="center">
-  Fast, reliable, and secure dependency management.
+  快速，稳定，去中心化服务注册与发现。
 </p>
 
 ### Feature
