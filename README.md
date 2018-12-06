@@ -6,9 +6,7 @@
     快速，稳定，去中心化服务注册与发现。
 </p>
 
-<div align="center">
-    [![Build Status](https://travis-ci.org/hvaexlove/fairy-server.svg?branch=master)](https://travis-ci.org/hvaexlove/fairy-server)
-</div>
+[![Build Status](https://travis-ci.org/hvaexlove/fairy-server.svg?branch=master)](https://travis-ci.org/hvaexlove/fairy-server)
 
 ---
 
