@@ -13,6 +13,7 @@ demangle.node
 .pulse2.properties
 Release
 Debug
+.package-lock.json
 
 
 # Editor directories and files

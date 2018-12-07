@@ -15,7 +15,6 @@
 			"check-open-brace",
 			"check-whitespace"
 		],
-		"no-var-keyword": true,
 		"quotemark": [
 			true,
 			"single",
@@ -52,8 +51,13 @@
 				"variable-declaration": "onespace"
 			}
 		],
+		"no-empty": [
+			false,
+			"allow-empty-catch"
+		],
+		"no-var-keyword": true,
 		"no-internal-module": true,
-		"no-trailing-whitespace": true,
+		"no-trailing-whitespace": false,
 		"no-null-keyword": true,
 		"prefer-const": true,
 		"jsdoc-format": true

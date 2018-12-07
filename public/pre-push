@@ -1,0 +1,22 @@
+#!/bin/sh
+
+build() {
+    npm i
+    npm run build
+}
+
+check_build() {
+    if [ -f "dist/fairy_server.js"  ];then
+        # build passed!
+        echo "build passed!"
+        exit 0
+    else
+        # build failed!
+        echo "build failed!"
+        exit 1
+    fi
+}
+
+build
+check_build
+

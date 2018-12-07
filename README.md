@@ -3,19 +3,19 @@
 </p>
 
 <p align="center">
-    快速，稳定，去中心化服务注册与发现。
+    Fast stable decentralization Service Register and Service Discovery。
 </p>
 
 [![Build Status](https://travis-ci.org/hvaexlove/fairy-server.svg?branch=master)](https://travis-ci.org/hvaexlove/fairy-server)
-
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 ---
 
 <h1>FairyServer</h1>
 
 ### Feature
 
-- [x] 服务注册
-- [x] 服务发现
+- [x] Service Register
+- [x] Service Discovery
 
 ### Install
 
