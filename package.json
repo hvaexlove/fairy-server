@@ -4,7 +4,6 @@
     "description": "fairy-server - open source",
     "main": "main.ts",
     "scripts": {
-        "test": "standard",
         "start": "node dist/fairy_server.js",
         "serve": "nodemon dist/fairy_server.js",
         "build": "npm run build-ts",

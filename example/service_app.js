@@ -7,7 +7,11 @@ let hexuService = service.createServer('rdslite-service', 1334, {
     if (error) {
         console.error(error);
     } else {
-        console.log('注册成功: ', txtRecord);
+        console.log('服务注册成功: ', txtRecord);
     }
 });
 hexuService.start();
+setTimeout(() => {
+    hexuService.stop();
+    console.log('服务停止!');
+}, 3000);

@@ -12,7 +12,7 @@ export class MDNSServer extends Server {
     private objectToTXTRecord(obj: any) {
         let record = new dnsSd.TXTRecordRef();
         let value;
-        record.buffer = new Buffer(256);
+        record.buffer = Buffer.alloc(256);
         dnsSd.TXTRecordCreate(record, record.buffer);
         for (let item in obj) {
             this.ensureLegalKey(item);
